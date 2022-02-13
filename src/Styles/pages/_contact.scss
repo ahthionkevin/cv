@@ -1,0 +1,166 @@
+.contact-container{
+
+    .title{
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    .info-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        padding: 20px 0;
+        margin-bottom: 50px;
+        
+
+        .info-item{
+            padding: 20px;
+            -webkit-box-shadow: -5px 6px 15px 1px rgba(0,0,0,0.81); 
+            box-shadow: -5px 6px 15px 1px rgba(0,0,0,0.81);
+            border: .5px cyan solid;
+            height: 150px;
+            margin: 20px;
+            border-radius: 5px;
+            background-color: rgba(255, 255, 255, 0.61);
+
+            .circle{
+                border-radius: 50%;
+                height: 75px;
+                width: 75px;
+                border: 1px cyan solid;
+                margin: auto;
+
+                .icon{
+                    position: relative;
+                    top: 30px
+                }
+            }
+        }
+    }
+
+    .form-container{
+        display: grid;
+        grid-template-rows: 1fr 1fr 4fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2rem;
+        width: 500px;
+        margin: auto;
+
+        input,textarea{
+            padding: 10px;
+            border: .25px solid rgba(211, 202, 202, 0.685);
+            border-radius: 7px;
+        }
+        .firstName{
+            grid-column: 1;
+            grid-row: 1;
+        }
+    
+        .lastName{
+            grid-column: 2;
+            grid-row: 1;
+        }
+    
+        .email{
+            grid-row: 2;
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+    
+        .message{
+            grid-row: 3;
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+        .submit{
+            transition: 0.6s ease-in-out;
+            &:hover{
+                background-color: rgb(28, 134, 134);
+                color: aliceblue;
+                cursor: pointer;
+            }
+        }
+    }
+   
+}
+
+@media screen and (max-width: 400px) {
+    .contact-container{
+        .title{
+            text-align: center;
+            font-size: 2rem;
+        }
+
+        .info-container{
+    
+            .info-item{
+                padding: 20px;
+                -webkit-box-shadow: -5px 6px 15px 1px rgba(0,0,0,0.81); 
+                box-shadow: -5px 6px 15px 1px rgba(0,0,0,0.81);
+                border: .5px cyan solid;
+                height: 180px;
+                width: 67%;
+                margin: 20px;
+                border-radius: 5px;
+                background-color: rgba(255, 255, 255, 0.61);
+    
+                .circle{
+                    border-radius: 50%;
+                    height: 75px;
+                    width: 75px;
+                    border: 1px cyan solid;
+                    margin: auto;
+    
+                    .icon{
+                        position: relative;
+                        top: 30px
+                    }
+                }
+            }
+        }
+
+        .form-container{
+            display: grid;
+            grid-template-rows: 1fr 1fr 1fr 4fr 1fr;
+            grid-template-columns: 1fr;
+            grid-gap: 1rem;
+            width: 90%;
+            margin: auto;
+    
+            input,textarea{
+                padding: 10px;
+                border: .25px solid rgba(211, 202, 202, 0.685);
+                border-radius: 7px;
+            }
+            .firstName{
+                grid-column: 1;
+                grid-row: 1;
+            }
+        
+            .lastName{
+                grid-column: 1;
+                grid-row: 2;
+            }
+        
+            .email{
+                grid-row: 3;
+                grid-column: 1;
+            }
+        
+            .message{
+                grid-row: 4;
+                grid-column: 1;
+            }
+            .submit{
+                transition: 0.6s ease-in-out;
+                &:hover{
+                    background-color: rgb(28, 134, 134);
+                    color: aliceblue;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

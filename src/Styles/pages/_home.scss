@@ -1,0 +1,131 @@
+.home-container{
+
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(250, 250, 250);
+    padding: 0;
+    margin: 0;
+
+    .profile-container{
+    
+        h1{
+            font-size: 2.8rem;
+        }
+        h2{
+            font-style: italic;
+        }
+        .hello{
+            border-radius: 80% 20% 100% 0% / 0% 100% 0% 100%  ;
+            background-color: aquamarine;
+            padding: 5px;
+            display: inline-flex;
+
+            h4{
+                margin: 5px  15px 5px 5px;
+                color: rgb(136, 124, 116);
+            }
+        }
+        .contact-info{
+            .contact-info-item{
+                margin-bottom: 10px;
+            }
+            .social-network{
+                margin-top: 25px;
+                display: flex;
+                
+                .social-network-item{
+                    padding: 0px 10px;
+
+                    a{
+                        color: black;
+
+                        &:hover{
+                            color: aqua;
+                        }
+                    }
+                    &:hover{
+                        color: aqua;
+                    }
+                   
+                }
+              
+            }
+        }
+    }
+
+    .profile-image-container{
+        .profile-image{
+            border-radius: 50%;
+            width:300px;
+            height:300px;
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .home-container{
+        flex-direction: column-reverse;
+        height: 90vh;
+        padding-top: 60px;
+
+        .profile-image-container{
+            .profile-image{
+                width:250px;
+                height:250px;
+            }
+        }
+
+        .profile-container{
+    
+            h1{
+                font-size: 1.8rem;
+            }
+            h2{
+                font-size: 1.1rem;
+                font-style: italic;
+            }
+            .phoneNumber{
+                font-size: 0.9rem;
+            }
+            .hello{
+                border-radius: 80% 20% 100% 0% / 0% 100% 0% 100%  ;
+                background-color: aquamarine;
+                padding: 5px;
+                display: inline-flex;
+    
+                h4{
+                    margin: 5px  15px 5px 5px;
+                    color: rgb(136, 124, 116);
+                }
+            }
+            .contact-info{
+                .contact-info-item{
+                    margin-bottom: 10px;
+                }
+                .social-network{
+                    margin-top: 25px;
+                    display: flex;
+                    
+                    .social-network-item{
+                        padding: 0px 10px;
+    
+                        a{
+                            color: black;
+    
+                            &:hover{
+                                color: aqua;
+                            }
+                        }
+                        &:hover{
+                            color: aqua;
+                        }
+                       
+                    }
+                  
+                }
+            }
+        }
+    }
+}

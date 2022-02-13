@@ -1,0 +1,81 @@
+.about-container{
+    display: flex;
+    height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+    background-attachment: fixed;
+
+
+    .about-container-description{
+        flex: 2;
+
+        h2{
+            font-size: 3rem;
+        }
+        .tech-list{
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 40px;
+            li{
+                padding: 5px;
+                list-style: none;
+                margin: 10px;
+                border: 2px aqua solid;
+                border-radius: 5px;
+
+                &:hover{
+                    color: rgb(161, 31, 31);
+                    background-color: rgb(127, 255, 212,0.7);
+                   
+                }
+            }
+        }
+        .download-button{
+            background: #74ebd5;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to bottom, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to bottom, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            
+            
+            color: white;
+            padding: 10px;
+            display: inline;
+            border-radius: 20px;
+            font-weight: 700;
+
+            -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+            box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+
+            transition: .6s ease-in-out;
+
+            &:hover{
+                cursor: pointer;
+                -webkit-box-shadow: 0px 10px 13px -7px #1d1717, 5px 25px 19px -5px rgba(0,0,0,0.3); 
+                box-shadow: 0px 10px 13px -7px #000000, 5px 25px 19px -5px rgba(0,0,0,0.3);
+                color:rgb(161, 31, 31);
+
+                background: #2980B9;  /* fallback for old browsers */
+                background: -webkit-linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+                background: linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            }
+
+            a{
+                color: #FFFFFF;
+                text-decoration: none;
+            }
+        }
+    }
+
+    .about-image-container{
+        flex: 1;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .about-container{
+        flex-direction: column;
+        height: 120vh;
+        text-align: center;
+
+        
+    }
+}

@@ -1,0 +1,25 @@
+.formation-container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+
+    .title{
+        font-size: 2rem;
+    }
+
+    .study-container{
+        flex: 1;
+    }
+
+    .traineeship-container{
+        flex: 1;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .formation-container{
+        flex-direction: column;
+    }
+}

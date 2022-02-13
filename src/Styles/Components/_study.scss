@@ -1,0 +1,26 @@
+.study-item-container{
+    text-align: left;
+    margin: 10px 17px 25px;
+    padding: 20px;
+    border: .25px rgb(194, 186, 186) solid;
+
+    -webkit-box-shadow: -5px 6px 15px 1px rgba(0,0,0,0.81); 
+    box-shadow: -5px 6px 15px 1px rgba(0,0,0,0.81);
+
+    border-radius: 10px;
+
+    .school{
+        font-style: italic;
+        color: aqua;
+    }
+
+    .year{
+        color: aqua;
+        font-size: 1rem;
+    }
+
+    .snippet{
+        text-align: justify;
+        color:rgb(83, 83, 83)
+    }
+}
