@@ -45,7 +45,7 @@ function Formation(props) {
                 ))}
             </div>
             <div className="traineeship-container">
-                <h3 className="title">TraineeShip</h3>
+                <h3 className="title">InternShip</h3>
                 {traineeShip.map((study) => (
                     <Study study={study} />
                 ))}
