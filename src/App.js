@@ -1,5 +1,3 @@
-import { Reveal, Slide, Zoom } from "react-reveal";
-import { Routes, Route } from "react-router-dom";
 import Footer from "./Components/Footer";
 import NavBar from "./Components/NavBar";
 import About from "./pages/About";
@@ -20,14 +18,6 @@ function App() {
             <Portofolio />
             <Contact />
             <Footer />
-            {/* <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/about" element={<About />} />
-                <Route path="/skills" element={<Skills />} />
-                <Route path="/formations" element={<Formation />} />
-                <Route path="/contact" element={<Contact />} />
-                <Route path="/portofolio" element={<Portofolio />} />
-            </Routes> */}
         </div>
     );
 }
