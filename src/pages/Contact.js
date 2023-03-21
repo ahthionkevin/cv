@@ -49,7 +49,7 @@ function Contact(props) {
                         <BsTelephoneFill className="icon" />
                     </div>
                     <h4>Phone Number</h4>
-                    <p className="phoneNumber">+212 (0)6-51-359-560</p>
+                    <p className="phoneNumber">+33 (0)7-51-092-150</p>
                 </div>
                 <div className="info-item">
                     <div className="circle">
@@ -57,7 +57,7 @@ function Contact(props) {
                     </div>
                     <h4>Address</h4>
                     <p className="phoneNumber">
-                        Hay Extension Tilila Rue Ajdigue Tikiouine Agadir
+                        8 10 Boulevard Victor Beaussier - 49000 - Angers - France
                     </p>
                 </div>
                 <div className="info-item">
