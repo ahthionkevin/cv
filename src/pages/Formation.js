@@ -6,8 +6,15 @@ function Formation(props) {
     const [studies, setStudies] = useState([
         {
             field: "Cycle Ingenieur",
+            school: "Polytech Angers",
+            year: "2022-2024",
+            snippet:
+                "Qualité Logicielle | Surete de fonctionnement | Analyse des Risques | Data Science.",
+        },
+        {
+            field: "Cycle Ingenieur",
             school: "National School of Applied Science",
-            year: "2020-2021",
+            year: "2020-2024",
             snippet:
                 "Programmation Objet | Programmation Web | Systeme d’Exploitation | Reseau | Base de donnees.",
         },
@@ -27,9 +34,23 @@ function Formation(props) {
     ]);
 
     const [traineeShip, setTraineeShip] = useState([
+         {
+            field: "Software Development Testing Engineering",
+            school: "Open Groupe (France)",
+            year: "Mai 2023 à Aout 2023",
+            snippet:
+                "Relaisation de script d'automatisation de test et d'anonymisation de donnée pour la recette",
+        },
         {
             field: "Web Development",
-            school: "MoussaSoft Enterprise",
+            school: "Storeino (Maroc)",
+            year: "Mars 2022 à Juillet 2022",
+            snippet:
+                "Stage sur le developpement d'un produit ( Template de Site Ecommerce ) pour l'entreprise afin de pouvoir le proposer au client",
+        },
+        {
+            field: "Web Development",
+            school: "MoussaSoft Enterprise (Maroc)",
             year: "Ete 2021",
             snippet:
                 "Stage sur le CMS Wordpress avec le plugin Woocommerce afin d'ajouter une nouvelle fonctionnalite pour le site",
