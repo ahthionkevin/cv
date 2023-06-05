@@ -16,14 +16,14 @@ function Home(props) {
                         <h4>Hello I am</h4>
                     </div>
                     <h1>Lafferty Kevin AH THION</h1>
-                    <h2>Sotware Engineer Student</h2>
+                    <h2>Sotware Development Engineer in Test Student</h2>
 
                     <div className="contact-info">
                         <div className="contact-info-item">
                             <BsTelephoneFill />
                             {"  "}
                             <span className="phoneNumber">
-                                +212 (0)6-51-359-560
+                                +33 (0)7-51-092-150
                             </span>
                         </div>
                         <div className="contact-info-item">
@@ -37,8 +37,7 @@ function Home(props) {
                             <ImLocation />
                             {"  "}
                             <span className="phoneNumber">
-                                Hay Extension Tilila Rue Ajdigue Tikiouine
-                                Agadir
+                                10 Rue du Petit Thouars Angers 49000 France
                             </span>
                         </div>
                         <div className="social-network">
