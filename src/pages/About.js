@@ -18,6 +18,8 @@ function About(props) {
         "ExpressJS",
         "MongoDB",
         "reactNative",
+        "cypress",
+        "selenium"
     ]);
     return (
         <div className="about-container" id="about">
