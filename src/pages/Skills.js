@@ -7,6 +7,18 @@ import "react-circular-progressbar/dist/styles.css";
 function Skills(props) {
     const [techSkills, setTechSkills] = useState([
         {
+            language: "Jira",
+            known: 40,
+        },
+        {
+            language: "Selenium",
+            known: 50,
+        },
+        {
+            language: "Cypress",
+            known: 70,
+        },
+        {
             language: "Javascript",
             known: 70,
         },
